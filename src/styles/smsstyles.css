@@ -1,0 +1,47 @@
+
+.bodyheight{
+    margin: 0%;
+    padding: 3px;
+    box-sizing: border-box;
+    position: relative;
+   font-family: sans-serif;
+    min-height: 1000px;
+    background-color: hsl(271, 90%, 37%);
+        text-align: center;
+        color: rgb(37, 213, 107);
+    
+}
+.paragraph{
+  background-color: green;
+  color: #0e0c0b;
+  max-height: 500px;
+  padding: 2px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+   
+  }
+  .row{
+    background-color: rgb(168, 150, 160);
+    padding: 5%;
+    color: chartreuse;
+  }
+  .technology{
+      background-color: rgb(163, 91, 199);
+      padding: 5%;
+      min-height: 210px;
+      size: 5px;
+      
+
+  }
+  
+ 
