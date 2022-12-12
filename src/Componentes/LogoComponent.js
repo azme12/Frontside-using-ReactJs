@@ -8,7 +8,7 @@ class LogoComponent extends React.Component {
     render() {
         return (
             <div>
-                <img src="http://localhost:3000/logo2.png"></img>
+                <img src="http://localhost:3005/logo2.png"></img>
                 <b>Technacy-web</b>
                 <hr></hr>
             </div>

@@ -3,11 +3,11 @@ const Bodycomponent = () => {
     return (
         <div className='bodyheight'>
             <h1>WELL COME TO OUR WEBSITE</h1>
-            <img src="http://localhost:3000/logo3.png"></img>
+            <img src="http://localhost:3005/logo3.png"></img>
             <p><h1>why use?</h1><br /> as our name suggests, we seek to deliver projects that demonstrate a thorough understanding of technology in terms of conceptualization, <br /> design, development,and implementation, allowing us to deliver real-world problem-solving, long-term, and maintainable solutions.</p>
             <button className='button'>Read More</button>
             <hr></hr>
-            <img src="http://localhost:3000/logo4.png"></img>
+            <img src="http://localhost:3005/logo4.png"></img>
             <br />
             <section className='row'>
                 <h1>Our Service</h1>
