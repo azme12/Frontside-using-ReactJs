@@ -20,8 +20,8 @@ function App() {
       <Router>
     <Routes>
         <Route exact path="/" component={<HomeComponent />} />
-        <Route exact path="/Our Service" component={<OurServiceComponent/>} />
-        <Route exact path="/About us" component={<AboutComponent/>} />
+        <Route exact path="/OurService" component={<OurServiceComponent/>} />
+        <Route exact path="/Aboutus" component={<AboutComponent/>} />
         <Route exact path="/TEchnology" component={<TechnologyComponent/>} />
         <Route exact path="/Contact Us" component={<ContactUsComponent/>} />
     </Routes>
