@@ -17,23 +17,23 @@ class NavComponent extends React.Component {
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Our Service
+          <a class="nav-link active" href="Our Service">Our Service
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="About us">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TEchnology</a>
+          <a class="nav-link" href="TEchnology">TEchnology</a>
         </li>
         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="phone">Phone</a>
-            <a class="dropdown-item" href="email">email</a>
+            <a class="dropdown-item" href="contact us">Phone</a>
+            <a class="dropdown-item" href="email">email</a>  
             <a class="dropdown-item" href="password">Password</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="subscribe">Subscribe</a>

@@ -19,7 +19,7 @@ function App() {
       <NavComponent></NavComponent>
       <Router>
     <Routes>
-        <Route exact path="/home" component={<HomeComponent />} />
+        <Route exact path="/" component={<HomeComponent />} />
         <Route exact path="/Our Service" component={<OurServiceComponent/>} />
         <Route exact path="/About us" component={<AboutComponent/>} />
         <Route exact path="/TEchnology" component={<TechnologyComponent/>} />

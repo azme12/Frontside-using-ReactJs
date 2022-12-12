@@ -17,7 +17,7 @@ const FooterComponent = () => {
         <Column>
           <Heading>Get in touch with us</Heading>
           <FooterLink href="#">email</FooterLink>
-          <FooterLink href="#"><button>enter your email</button></FooterLink>
+          <FooterLink href="#"><button className='button'>enter your email</button></FooterLink>
           <FooterLink href="#">Subscribe</FooterLink>
         </Column>
         <Column>
@@ -37,21 +37,21 @@ const FooterComponent = () => {
         <Column>
           <Heading>Contact Me By</Heading>
           <FooterLink href="#">
-          <i class="fa-brands fa-facebook">
+          <i class="fa fa-facebook">
               <span style={{ marginLeft: "10px" }}>
                 Facebook
               </span>
             </i>
           </FooterLink>
           <FooterLink href="#">
-            <i className="fab fa-telegram">
+            <i className="fa fa-telegram">
               <span style={{ marginLeft: "10px" }}>
                 Telegram
               </span>
             </i>
           </FooterLink>
           <FooterLink href="#">
-          <i class="fa-brands fa-linkedin">
+          <i class="fa fa-linkedin">
               <span style={{ marginLeft: "10px" }}>
               linkedin
               </span>
